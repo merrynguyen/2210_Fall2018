@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: AstroDog.ma
-//Last modified: Fri, Sep 14, 2018 10:39:56 AM
+//Last modified: Fri, Sep 14, 2018 10:42:15 AM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -9585,7 +9585,7 @@ createNode mesh -n "pConeShape2" -p "pCone2";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pSphere4";
 	rename -uid "7A279873-4450-C64E-D9EB-6181E1CE8C94";
-	setAttr ".t" -type "double3" 0 0.4689250716806127 -1.3070515063409407 ;
+	setAttr ".t" -type "double3" 0 0.4689250716806127 -1.3096329460857712 ;
 	setAttr ".r" -type "double3" -83.958221375025758 0 0 ;
 	setAttr ".s" -type "double3" 0.62443251136208899 0.62443251136208899 0.62443251136208899 ;
 createNode mesh -n "pSphereShape4" -p "pSphere4";
